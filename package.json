@@ -1,0 +1,87 @@
+{
+  "name": "tailwind-pug-starter-kit",
+  "version": "1.0.0",
+  "description": "this is a tailwind Css 3 & pug  starter kit for speed up your development",
+  "author": "Ui-Lib , https://ui-lib.com/",
+  "license": "MIT",
+  "main": "gulpfile.js",
+  "scripts": {
+    "dev": "gulp",
+    "build": "gulp build",
+    "git": "git add . && git commit -m",
+    "postgit": "git push -u origin master && git subtree push --prefix dist origin gh-pages"
+  },
+  "options": {
+    "config": {
+      "tailwindjs": "./tailwind.config.js"
+    },
+    "paths": {
+      "root": "./",
+      "src": {
+        "base": "./src",
+        "css": "./src/css",
+        "js": "./src/js",
+        "img": "./src/img",
+        "locales": "./src/locales"
+      },
+      "dist": {
+        "base": "./dist",
+        "css": "./dist/css",
+        "js": "./dist/js",
+        "img": "./dist/img",
+        "locales": "./dist/locales"
+      },
+      "build": {
+        "base": "./build",
+        "css": "./build/css",
+        "js": "./build/js",
+        "img": "./build/img",
+        "locales": "./build/locales"
+      }
+    }
+  },
+  "keywords": [
+    "Tailwind",
+    "gulp",
+    "tailwind",
+    "tailwindcss",
+    "starter",
+    "starter kit"
+  ],
+  "devDependencies": {
+    "autoprefixer": "^10.4.20",
+    "browser-sync": "^2.27.9",
+    "del": "^6.0.0",
+    "gulp": "^4.0.2",
+    "gulp-cache": "^1.1.3",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-data": "^1.3.1",
+    "gulp-file-include": "^2.3.0",
+    "gulp-i18n-localize": "^1.4.0",
+    "gulp-imagemin": "^7.1.0",
+    "gulp-markdown": "^6.0.0",
+    "gulp-nunjucks-render": "^2.2.3",
+    "gulp-postcss": "^9.0.1",
+    "gulp-purgecss": "^4.1.3",
+    "gulp-purify-css": "^0.1.0",
+    "gulp-purifycss": "^0.2.0",
+    "gulp-rename": "^2.0.0",
+    "gulp-replace": "^1.1.3",
+    "gulp-sass": "^5.1.0",
+    "gulp-sass-glob": "^1.1.0",
+    "gulp-uglify": "^3.0.2",
+    "gulp-webp": "^4.0.1",
+    "lodash.template": ">=4.5.0",
+    "log-symbols": "^2.2.0",
+    "mem": "^9.0.2",
+    "postcss": "^8.5.3",
+    "purifycss-extended": "^1.3.6",
+    "tailwindcss": "^3.4.17",
+    "tailwindcss-animatecss": "^1.0.7"
+  },
+  "dependencies": {
+    "chart.js": "^3.7.1",
+    "sass": "^1.51.0"
+  }
+}
