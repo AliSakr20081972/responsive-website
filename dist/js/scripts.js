@@ -10,7 +10,6 @@ function updateNavbar() {
     } else {
         headerFile = "hero/hero-desktop.html";
     }
-
     fetch(headerFile)
         .then(response => response.text())
         .then(data => {
